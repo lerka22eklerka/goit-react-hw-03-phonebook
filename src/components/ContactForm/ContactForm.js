@@ -21,9 +21,6 @@ const initialValues = {
   id: nanoid(),
 };
 
-// const FormError = ({ name }) => {
-//   return <ErrorMessage name={name}
-// }
 
 export class ContactForm extends Component {
   state = {
