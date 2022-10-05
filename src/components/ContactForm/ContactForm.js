@@ -16,7 +16,7 @@ const schema = yup.object().shape({
 });
 
 const initialValues = {
-  name: ' ',
+  name: '',
   number: '',
   id: nanoid(),
 };
